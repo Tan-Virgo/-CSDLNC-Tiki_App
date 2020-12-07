@@ -57,13 +57,13 @@ namespace App_TIKI
 
         private void tàiKhoảnToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            fTaiKhoan f = new fTaiKhoan();
+            fTaiKhoan_CaNhan f = new fTaiKhoan_CaNhan();
             f.ShowDialog();
         }
 
         private void khuyếnMãiToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            fKhuyenMai f = new fKhuyenMai();
+            fKhuyenMai_CaNhan f = new fKhuyenMai_CaNhan();
             f.ShowDialog();
         }
 
@@ -81,31 +81,31 @@ namespace App_TIKI
 
         private void quảnLýSảnPhẩmToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            fSanPham f = new fSanPham();
+            fSanPham_NhaBan f = new fSanPham_NhaBan();
             f.ShowDialog();
         }
 
         private void đơnHàngĐangGiaoToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            fDonHangKhach f = new fDonHangKhach();
+            fDonHangKhach_NhaBan f = new fDonHangKhach_NhaBan();
             f.ShowDialog();
         }
 
         private void tàiKhoảnToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            fTaiKhoanADMIN f = new fTaiKhoanADMIN();
+            fTaiKhoan_ADMIN f = new fTaiKhoan_ADMIN();
             f.ShowDialog();
         }
 
         private void nhânViênGiaoHàngToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            fNhanVienGiao f = new fNhanVienGiao();
+            fNhanVienGiao_ADMIN f = new fNhanVienGiao_ADMIN();
             f.ShowDialog();
         }
 
         private void nhậpXuấtKhoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            fNhapXuatKho f = new fNhapXuatKho();
+            fNhapKho_ADMIN f = new fNhapKho_ADMIN();
             f.ShowDialog();
         }
 
@@ -115,15 +115,10 @@ namespace App_TIKI
             f.ShowDialog();
         }
 
-        private void xuấtKhoToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            fXuatKho f = new fXuatKho();
-            f.ShowDialog();
-        }
 
         private void phiếuGiaoHàngToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            fPhieuGuiHang f = new fPhieuGuiHang();
+            fPhieuGuiHang_NhaBan f = new fPhieuGuiHang_NhaBan();
             f.ShowDialog();
         }
 
@@ -135,7 +130,31 @@ namespace App_TIKI
 
         private void thốngKêToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            fThongKe f = new fThongKe();
+            fThongKe_ADMIN f = new fThongKe_ADMIN();
+            f.ShowDialog();
+        }
+
+        private void thôngTinNhàBánToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fThongTin_NhaBan f = new fThongTin_NhaBan();
+            f.ShowDialog();
+        }
+
+        private void xuấtKhoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fXuatKho_ADMIN f = new fXuatKho_ADMIN();
+            f.ShowDialog();
+        }
+
+        private void btnThemKH_Click(object sender, EventArgs e)
+        {
+            fKhachHang f = new fKhachHang();
+            f.ShowDialog();
+        }
+
+        private void btnThenNB_Click(object sender, EventArgs e)
+        {
+            fNhaBan f = new fNhaBan();
             f.ShowDialog();
         }
     }

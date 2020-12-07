@@ -37,8 +37,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.btnBoQua = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -46,7 +50,7 @@
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel2.Controls.Add(this.txbUsername);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(76, 13);
+            this.panel2.Location = new System.Drawing.Point(248, 64);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(425, 96);
@@ -59,7 +63,6 @@
             this.txbUsername.Location = new System.Drawing.Point(123, 32);
             this.txbUsername.Margin = new System.Windows.Forms.Padding(4);
             this.txbUsername.Name = "txbUsername";
-            this.txbUsername.ReadOnly = true;
             this.txbUsername.Size = new System.Drawing.Size(281, 28);
             this.txbUsername.TabIndex = 1;
             // 
@@ -78,7 +81,7 @@
             // 
             this.panel3.Controls.Add(this.txbPassword);
             this.panel3.Controls.Add(this.label3);
-            this.panel3.Location = new System.Drawing.Point(76, 103);
+            this.panel3.Location = new System.Drawing.Point(248, 154);
             this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(425, 84);
@@ -92,7 +95,6 @@
             this.txbPassword.Margin = new System.Windows.Forms.Padding(4);
             this.txbPassword.Name = "txbPassword";
             this.txbPassword.PasswordChar = '0';
-            this.txbPassword.ReadOnly = true;
             this.txbPassword.Size = new System.Drawing.Size(281, 28);
             this.txbPassword.TabIndex = 1;
             // 
@@ -110,7 +112,7 @@
             // btnLogin
             // 
             this.btnLogin.BackColor = System.Drawing.Color.Gold;
-            this.btnLogin.Location = new System.Drawing.Point(376, 195);
+            this.btnLogin.Location = new System.Drawing.Point(548, 298);
             this.btnLogin.Margin = new System.Windows.Forms.Padding(4);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(125, 39);
@@ -122,12 +124,46 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(76, 205);
+            this.checkBox1.Location = new System.Drawing.Point(308, 255);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(205, 21);
             this.checkBox1.TabIndex = 17;
             this.checkBox1.Text = "Đây chắc chắn chính là bạn";
             this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // btnBoQua
+            // 
+            this.btnBoQua.BackColor = System.Drawing.Color.Gold;
+            this.btnBoQua.Location = new System.Drawing.Point(388, 298);
+            this.btnBoQua.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBoQua.Name = "btnBoQua";
+            this.btnBoQua.Size = new System.Drawing.Size(125, 39);
+            this.btnBoQua.TabIndex = 18;
+            this.btnBoQua.Text = "BÒ QUA";
+            this.btnBoQua.UseVisualStyleBackColor = false;
+            this.btnBoQua.Click += new System.EventHandler(this.btnBoQua_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox1.Location = new System.Drawing.Point(31, 64);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(186, 174);
+            this.pictureBox1.TabIndex = 19;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Lime;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(26, 249);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(196, 28);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "Niềm vui mua sắm";
             // 
             // fLogin
             // 
@@ -136,7 +172,10 @@
             this.BackColor = System.Drawing.Color.PaleTurquoise;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(562, 273);
+            this.ClientSize = new System.Drawing.Size(704, 372);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.btnBoQua);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.panel3);
@@ -150,6 +189,7 @@
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -165,5 +205,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button btnBoQua;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
     }
 }

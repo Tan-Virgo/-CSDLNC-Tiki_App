@@ -45,17 +45,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAO\DataProvider.cs" />
+    <Compile Include="DAO\TaiKhoan_DAO.cs" />
+    <Compile Include="DTO\TaiKhoan.cs" />
     <Compile Include="fDonHang.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="fDonHang.Designer.cs">
       <DependentUpon>fDonHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="fDonHangKhach.cs">
+    <Compile Include="fDonHangKhach_NhaBan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fDonHangKhach.Designer.cs">
-      <DependentUpon>fDonHangKhach.cs</DependentUpon>
+    <Compile Include="fDonHangKhach_NhaBan.Designer.cs">
+      <DependentUpon>fDonHangKhach_NhaBan.cs</DependentUpon>
     </Compile>
     <Compile Include="fGiaoHang_ADMIN.cs">
       <SubType>Form</SubType>
@@ -69,11 +72,17 @@
     <Compile Include="fGioHangChuaMua.Designer.cs">
       <DependentUpon>fGioHangChuaMua.cs</DependentUpon>
     </Compile>
-    <Compile Include="fKhuyenMai.cs">
+    <Compile Include="fKhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fKhuyenMai.Designer.cs">
-      <DependentUpon>fKhuyenMai.cs</DependentUpon>
+    <Compile Include="fKhachHang.Designer.cs">
+      <DependentUpon>fKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fKhuyenMai_CaNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fKhuyenMai_CaNhan.Designer.cs">
+      <DependentUpon>fKhuyenMai_CaNhan.cs</DependentUpon>
     </Compile>
     <Compile Include="fMain.cs">
       <SubType>Form</SubType>
@@ -87,73 +96,85 @@
     <Compile Include="fLogin.Designer.cs">
       <DependentUpon>fLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="fNhanVienGiao.cs">
+    <Compile Include="fNhaBan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fNhanVienGiao.Designer.cs">
-      <DependentUpon>fNhanVienGiao.cs</DependentUpon>
+    <Compile Include="fNhaBan.Designer.cs">
+      <DependentUpon>fNhaBan.cs</DependentUpon>
     </Compile>
-    <Compile Include="fNhapKho.cs">
+    <Compile Include="fNhanVienGiao_ADMIN.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fNhapKho.Designer.cs">
-      <DependentUpon>fNhapKho.cs</DependentUpon>
+    <Compile Include="fNhanVienGiao_ADMIN.Designer.cs">
+      <DependentUpon>fNhanVienGiao_ADMIN.cs</DependentUpon>
     </Compile>
-    <Compile Include="fNhapXuatKho.cs">
+    <Compile Include="fNhapKho_NhaBan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fNhapXuatKho.Designer.cs">
-      <DependentUpon>fNhapXuatKho.cs</DependentUpon>
+    <Compile Include="fNhapKho_NhaBan.Designer.cs">
+      <DependentUpon>fNhapKho_NhaBan.cs</DependentUpon>
     </Compile>
-    <Compile Include="fPhieuGuiHang.cs">
+    <Compile Include="fNhapKho_ADMIN.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fPhieuGuiHang.Designer.cs">
-      <DependentUpon>fPhieuGuiHang.cs</DependentUpon>
+    <Compile Include="fNhapKho_ADMIN.Designer.cs">
+      <DependentUpon>fNhapKho_ADMIN.cs</DependentUpon>
     </Compile>
-    <Compile Include="fSanPham.cs">
+    <Compile Include="fPhieuGuiHang_NhaBan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fSanPham.Designer.cs">
-      <DependentUpon>fSanPham.cs</DependentUpon>
+    <Compile Include="fPhieuGuiHang_NhaBan.Designer.cs">
+      <DependentUpon>fPhieuGuiHang_NhaBan.cs</DependentUpon>
     </Compile>
-    <Compile Include="fTaiKhoan.cs">
+    <Compile Include="fSanPham_NhaBan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fTaiKhoan.Designer.cs">
-      <DependentUpon>fTaiKhoan.cs</DependentUpon>
+    <Compile Include="fSanPham_NhaBan.Designer.cs">
+      <DependentUpon>fSanPham_NhaBan.cs</DependentUpon>
     </Compile>
-    <Compile Include="fTaiKhoanADMIN.cs">
+    <Compile Include="fTaiKhoan_CaNhan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fTaiKhoanADMIN.Designer.cs">
-      <DependentUpon>fTaiKhoanADMIN.cs</DependentUpon>
+    <Compile Include="fTaiKhoan_CaNhan.Designer.cs">
+      <DependentUpon>fTaiKhoan_CaNhan.cs</DependentUpon>
     </Compile>
-    <Compile Include="fThongKe.cs">
+    <Compile Include="fTaiKhoan_ADMIN.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fThongKe.Designer.cs">
-      <DependentUpon>fThongKe.cs</DependentUpon>
+    <Compile Include="fTaiKhoan_ADMIN.Designer.cs">
+      <DependentUpon>fTaiKhoan_ADMIN.cs</DependentUpon>
     </Compile>
-    <Compile Include="fThongTinCaNhan.cs">
+    <Compile Include="fThongKe_ADMIN.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fThongTinCaNhan.Designer.cs">
-      <DependentUpon>fThongTinCaNhan.cs</DependentUpon>
+    <Compile Include="fThongKe_ADMIN.Designer.cs">
+      <DependentUpon>fThongKe_ADMIN.cs</DependentUpon>
     </Compile>
-    <Compile Include="fXuatKho.cs">
+    <Compile Include="fThongTin_CaNhan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fXuatKho.Designer.cs">
-      <DependentUpon>fXuatKho.cs</DependentUpon>
+    <Compile Include="fThongTin_CaNhan.Designer.cs">
+      <DependentUpon>fThongTin_CaNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fThongTin_NhaBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fThongTin_NhaBan.Designer.cs">
+      <DependentUpon>fThongTin_NhaBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fXuatKho_ADMIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fXuatKho_ADMIN.Designer.cs">
+      <DependentUpon>fXuatKho_ADMIN.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="fDonHang.resx">
       <DependentUpon>fDonHang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fDonHangKhach.resx">
-      <DependentUpon>fDonHangKhach.cs</DependentUpon>
+    <EmbeddedResource Include="fDonHangKhach_NhaBan.resx">
+      <DependentUpon>fDonHangKhach_NhaBan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fGiaoHang_ADMIN.resx">
       <DependentUpon>fGiaoHang_ADMIN.cs</DependentUpon>
@@ -161,8 +182,11 @@
     <EmbeddedResource Include="fGioHangChuaMua.resx">
       <DependentUpon>fGioHangChuaMua.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fKhuyenMai.resx">
-      <DependentUpon>fKhuyenMai.cs</DependentUpon>
+    <EmbeddedResource Include="fKhachHang.resx">
+      <DependentUpon>fKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fKhuyenMai_CaNhan.resx">
+      <DependentUpon>fKhuyenMai_CaNhan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fMain.resx">
       <DependentUpon>fMain.cs</DependentUpon>
@@ -170,35 +194,41 @@
     <EmbeddedResource Include="fLogin.resx">
       <DependentUpon>fLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fNhanVienGiao.resx">
-      <DependentUpon>fNhanVienGiao.cs</DependentUpon>
+    <EmbeddedResource Include="fNhaBan.resx">
+      <DependentUpon>fNhaBan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fNhapKho.resx">
-      <DependentUpon>fNhapKho.cs</DependentUpon>
+    <EmbeddedResource Include="fNhanVienGiao_ADMIN.resx">
+      <DependentUpon>fNhanVienGiao_ADMIN.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fNhapXuatKho.resx">
-      <DependentUpon>fNhapXuatKho.cs</DependentUpon>
+    <EmbeddedResource Include="fNhapKho_NhaBan.resx">
+      <DependentUpon>fNhapKho_NhaBan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fPhieuGuiHang.resx">
-      <DependentUpon>fPhieuGuiHang.cs</DependentUpon>
+    <EmbeddedResource Include="fNhapKho_ADMIN.resx">
+      <DependentUpon>fNhapKho_ADMIN.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fSanPham.resx">
-      <DependentUpon>fSanPham.cs</DependentUpon>
+    <EmbeddedResource Include="fPhieuGuiHang_NhaBan.resx">
+      <DependentUpon>fPhieuGuiHang_NhaBan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fTaiKhoan.resx">
-      <DependentUpon>fTaiKhoan.cs</DependentUpon>
+    <EmbeddedResource Include="fSanPham_NhaBan.resx">
+      <DependentUpon>fSanPham_NhaBan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fTaiKhoanADMIN.resx">
-      <DependentUpon>fTaiKhoanADMIN.cs</DependentUpon>
+    <EmbeddedResource Include="fTaiKhoan_CaNhan.resx">
+      <DependentUpon>fTaiKhoan_CaNhan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fThongKe.resx">
-      <DependentUpon>fThongKe.cs</DependentUpon>
+    <EmbeddedResource Include="fTaiKhoan_ADMIN.resx">
+      <DependentUpon>fTaiKhoan_ADMIN.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fThongTinCaNhan.resx">
-      <DependentUpon>fThongTinCaNhan.cs</DependentUpon>
+    <EmbeddedResource Include="fThongKe_ADMIN.resx">
+      <DependentUpon>fThongKe_ADMIN.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fXuatKho.resx">
-      <DependentUpon>fXuatKho.cs</DependentUpon>
+    <EmbeddedResource Include="fThongTin_CaNhan.resx">
+      <DependentUpon>fThongTin_CaNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fThongTin_NhaBan.resx">
+      <DependentUpon>fThongTin_NhaBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fXuatKho_ADMIN.resx">
+      <DependentUpon>fXuatKho_ADMIN.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -222,5 +252,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

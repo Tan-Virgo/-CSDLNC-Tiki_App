@@ -39,10 +39,10 @@
             this.đơnHàngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.xemCácĐơnHàngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nhàBánToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thôngTinNhàBánToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quảnLýSảnPhẩmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.đơnHàngĐangGiaoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.nhậpKhoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.xuấtKhoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.phiếuGiaoHàngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aDMINToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tàiKhoảnToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -72,6 +72,9 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.txbMaSanPham = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnThemKH = new System.Windows.Forms.Button();
+            this.xuấtKhoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnThenNB = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -155,21 +158,28 @@
             // xemCácĐơnHàngToolStripMenuItem
             // 
             this.xemCácĐơnHàngToolStripMenuItem.Name = "xemCácĐơnHàngToolStripMenuItem";
-            this.xemCácĐơnHàngToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.xemCácĐơnHàngToolStripMenuItem.Size = new System.Drawing.Size(215, 26);
             this.xemCácĐơnHàngToolStripMenuItem.Text = "Xem các đơn hàng";
             this.xemCácĐơnHàngToolStripMenuItem.Click += new System.EventHandler(this.xemCácĐơnHàngToolStripMenuItem_Click);
             // 
             // nhàBánToolStripMenuItem
             // 
             this.nhàBánToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.thôngTinNhàBánToolStripMenuItem,
             this.quảnLýSảnPhẩmToolStripMenuItem,
             this.đơnHàngĐangGiaoToolStripMenuItem1,
             this.nhậpKhoToolStripMenuItem,
-            this.xuấtKhoToolStripMenuItem,
             this.phiếuGiaoHàngToolStripMenuItem});
             this.nhàBánToolStripMenuItem.Name = "nhàBánToolStripMenuItem";
             this.nhàBánToolStripMenuItem.Size = new System.Drawing.Size(79, 24);
             this.nhàBánToolStripMenuItem.Text = "Nhà bán";
+            // 
+            // thôngTinNhàBánToolStripMenuItem
+            // 
+            this.thôngTinNhàBánToolStripMenuItem.Name = "thôngTinNhàBánToolStripMenuItem";
+            this.thôngTinNhàBánToolStripMenuItem.Size = new System.Drawing.Size(226, 26);
+            this.thôngTinNhàBánToolStripMenuItem.Text = "Thông tin nhà bán";
+            this.thôngTinNhàBánToolStripMenuItem.Click += new System.EventHandler(this.thôngTinNhàBánToolStripMenuItem_Click);
             // 
             // quảnLýSảnPhẩmToolStripMenuItem
             // 
@@ -192,13 +202,6 @@
             this.nhậpKhoToolStripMenuItem.Text = "Nhập kho";
             this.nhậpKhoToolStripMenuItem.Click += new System.EventHandler(this.nhậpKhoToolStripMenuItem_Click);
             // 
-            // xuấtKhoToolStripMenuItem
-            // 
-            this.xuấtKhoToolStripMenuItem.Name = "xuấtKhoToolStripMenuItem";
-            this.xuấtKhoToolStripMenuItem.Size = new System.Drawing.Size(226, 26);
-            this.xuấtKhoToolStripMenuItem.Text = "Xuất kho";
-            this.xuấtKhoToolStripMenuItem.Click += new System.EventHandler(this.xuấtKhoToolStripMenuItem_Click);
-            // 
             // phiếuGiaoHàngToolStripMenuItem
             // 
             this.phiếuGiaoHàngToolStripMenuItem.Name = "phiếuGiaoHàngToolStripMenuItem";
@@ -212,6 +215,7 @@
             this.tàiKhoảnToolStripMenuItem1,
             this.nhânViênGiaoHàngToolStripMenuItem,
             this.nhậpXuấtKhoToolStripMenuItem,
+            this.xuấtKhoToolStripMenuItem,
             this.phiếuGửiHàngToolStripMenuItem,
             this.thốngKêToolStripMenuItem});
             this.aDMINToolStripMenuItem.Name = "aDMINToolStripMenuItem";
@@ -236,7 +240,7 @@
             // 
             this.nhậpXuấtKhoToolStripMenuItem.Name = "nhậpXuấtKhoToolStripMenuItem";
             this.nhậpXuấtKhoToolStripMenuItem.Size = new System.Drawing.Size(229, 26);
-            this.nhậpXuấtKhoToolStripMenuItem.Text = "Nhập xuất kho";
+            this.nhậpXuấtKhoToolStripMenuItem.Text = "Nhập kho";
             this.nhậpXuấtKhoToolStripMenuItem.Click += new System.EventHandler(this.nhậpXuấtKhoToolStripMenuItem_Click);
             // 
             // phiếuGửiHàngToolStripMenuItem
@@ -282,7 +286,7 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(193, 49);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(272, 24);
             this.comboBox1.TabIndex = 1;
@@ -302,11 +306,11 @@
             this.dataGridView1.BackgroundColor = System.Drawing.Color.Aqua;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(20, 98);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(447, 402);
+            this.dataGridView1.Size = new System.Drawing.Size(447, 355);
             this.dataGridView1.TabIndex = 5;
             // 
             // panel1
@@ -318,7 +322,7 @@
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(496, 98);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(356, 402);
             this.panel1.TabIndex = 6;
@@ -327,7 +331,7 @@
             // 
             this.btnThemSP.BackColor = System.Drawing.Color.Gold;
             this.btnThemSP.Location = new System.Drawing.Point(192, 352);
-            this.btnThemSP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThemSP.Margin = new System.Windows.Forms.Padding(4);
             this.btnThemSP.Name = "btnThemSP";
             this.btnThemSP.Size = new System.Drawing.Size(156, 39);
             this.btnThemSP.TabIndex = 7;
@@ -339,7 +343,7 @@
             this.panel6.Controls.Add(this.txbMoTa);
             this.panel6.Controls.Add(this.label6);
             this.panel6.Location = new System.Drawing.Point(7, 250);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(348, 95);
             this.panel6.TabIndex = 3;
@@ -349,7 +353,7 @@
             this.txbMoTa.BackColor = System.Drawing.Color.PaleTurquoise;
             this.txbMoTa.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txbMoTa.Location = new System.Drawing.Point(61, 14);
-            this.txbMoTa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txbMoTa.Margin = new System.Windows.Forms.Padding(4);
             this.txbMoTa.Name = "txbMoTa";
             this.txbMoTa.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txbMoTa.Size = new System.Drawing.Size(279, 22);
@@ -370,7 +374,7 @@
             this.panel5.Controls.Add(this.txbSao);
             this.panel5.Controls.Add(this.label5);
             this.panel5.Location = new System.Drawing.Point(7, 188);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(348, 54);
             this.panel5.TabIndex = 3;
@@ -379,7 +383,7 @@
             // 
             this.txbSao.BackColor = System.Drawing.SystemColors.Window;
             this.txbSao.Location = new System.Drawing.Point(123, 14);
-            this.txbSao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txbSao.Margin = new System.Windows.Forms.Padding(4);
             this.txbSao.Name = "txbSao";
             this.txbSao.Size = new System.Drawing.Size(220, 22);
             this.txbSao.TabIndex = 1;
@@ -399,7 +403,7 @@
             this.panel4.Controls.Add(this.txbGiaSanPham);
             this.panel4.Controls.Add(this.label4);
             this.panel4.Location = new System.Drawing.Point(7, 127);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(348, 54);
             this.panel4.TabIndex = 2;
@@ -408,7 +412,7 @@
             // 
             this.txbGiaSanPham.BackColor = System.Drawing.SystemColors.Window;
             this.txbGiaSanPham.Location = new System.Drawing.Point(123, 14);
-            this.txbGiaSanPham.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txbGiaSanPham.Margin = new System.Windows.Forms.Padding(4);
             this.txbGiaSanPham.Name = "txbGiaSanPham";
             this.txbGiaSanPham.Size = new System.Drawing.Size(220, 22);
             this.txbGiaSanPham.TabIndex = 1;
@@ -428,7 +432,7 @@
             this.panel3.Controls.Add(this.txbTenSanPham);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Location = new System.Drawing.Point(4, 65);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(348, 54);
             this.panel3.TabIndex = 2;
@@ -437,7 +441,7 @@
             // 
             this.txbTenSanPham.BackColor = System.Drawing.SystemColors.Window;
             this.txbTenSanPham.Location = new System.Drawing.Point(123, 14);
-            this.txbTenSanPham.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txbTenSanPham.Margin = new System.Windows.Forms.Padding(4);
             this.txbTenSanPham.Name = "txbTenSanPham";
             this.txbTenSanPham.Size = new System.Drawing.Size(220, 22);
             this.txbTenSanPham.TabIndex = 1;
@@ -457,7 +461,7 @@
             this.panel2.Controls.Add(this.txbMaSanPham);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Location = new System.Drawing.Point(4, 4);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(348, 54);
             this.panel2.TabIndex = 0;
@@ -466,7 +470,7 @@
             // 
             this.txbMaSanPham.BackColor = System.Drawing.SystemColors.Window;
             this.txbMaSanPham.Location = new System.Drawing.Point(123, 14);
-            this.txbMaSanPham.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txbMaSanPham.Margin = new System.Windows.Forms.Padding(4);
             this.txbMaSanPham.Name = "txbMaSanPham";
             this.txbMaSanPham.Size = new System.Drawing.Size(220, 22);
             this.txbMaSanPham.TabIndex = 1;
@@ -481,12 +485,41 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Mã sản phẩm:";
             // 
+            // btnThemKH
+            // 
+            this.btnThemKH.Location = new System.Drawing.Point(20, 466);
+            this.btnThemKH.Name = "btnThemKH";
+            this.btnThemKH.Size = new System.Drawing.Size(222, 38);
+            this.btnThemKH.TabIndex = 8;
+            this.btnThemKH.Text = "Đăng ký khách hàng";
+            this.btnThemKH.UseVisualStyleBackColor = true;
+            this.btnThemKH.Click += new System.EventHandler(this.btnThemKH_Click);
+            // 
+            // xuấtKhoToolStripMenuItem
+            // 
+            this.xuấtKhoToolStripMenuItem.Name = "xuấtKhoToolStripMenuItem";
+            this.xuấtKhoToolStripMenuItem.Size = new System.Drawing.Size(229, 26);
+            this.xuấtKhoToolStripMenuItem.Text = "Xuất kho";
+            this.xuấtKhoToolStripMenuItem.Click += new System.EventHandler(this.xuấtKhoToolStripMenuItem_Click);
+            // 
+            // btnThenNB
+            // 
+            this.btnThenNB.Location = new System.Drawing.Point(245, 466);
+            this.btnThenNB.Name = "btnThenNB";
+            this.btnThenNB.Size = new System.Drawing.Size(222, 38);
+            this.btnThenNB.TabIndex = 9;
+            this.btnThenNB.Text = "Đăng ký nhà bán";
+            this.btnThenNB.UseVisualStyleBackColor = true;
+            this.btnThenNB.Click += new System.EventHandler(this.btnThenNB_Click);
+            // 
             // fMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleTurquoise;
             this.ClientSize = new System.Drawing.Size(876, 516);
+            this.Controls.Add(this.btnThenNB);
+            this.Controls.Add(this.btnThemKH);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
@@ -563,8 +596,11 @@
         private System.Windows.Forms.ToolStripMenuItem đơnHàngToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem xemCácĐơnHàngToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nhậpKhoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem xuấtKhoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem phiếuGiaoHàngToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem thôngTinNhàBánToolStripMenuItem;
+        private System.Windows.Forms.Button btnThemKH;
+        private System.Windows.Forms.ToolStripMenuItem xuấtKhoToolStripMenuItem;
+        private System.Windows.Forms.Button btnThenNB;
     }
 }
 

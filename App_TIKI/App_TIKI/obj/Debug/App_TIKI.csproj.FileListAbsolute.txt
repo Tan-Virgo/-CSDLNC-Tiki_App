@@ -9,18 +9,50 @@ D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_
 D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.pdb
 D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fMain.resources
 D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fThongTinCaNhan.resources
-D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fTaiKhoan.resources
 D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fDonHang.resources
 D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fGioHangChuaMua.resources
-D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fKhuyenMai.resources
-D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fSanPham.resources
-D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fDonHangKhach.resources
-D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fNhanVienGiao.resources
-D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fNhapXuatKho.resources
-D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fTaiKhoanADMIN.resources
 D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fGiaoHang_ADMIN.resources
 D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fNhapKho.resources
-D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fPhieuGuiHang.resources
-D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fThongKe.resources
-D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fXuatKho.resources
 D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fLogin.resources
+D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fDonHangKhach_NhaBan.resources
+D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fKhuyenMai_CaNhan.resources
+D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fNhanVienGiao_ADMIN.resources
+D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fPhieuGuiHang_NhaBan.resources
+D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fSanPham_NhaBan.resources
+D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fTaiKhoan_CaNhan.resources
+D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fTaiKhoan_ADMIN.resources
+D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fThongKe_ADMIN.resources
+D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fThongTin_NhaBan.resources
+D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fNhapKho_ADMIN.resources
+D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fXuatKho_ADMIN.resources
+D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fKhachHang.resources
+D:\_HKI_2020_2021\4__CSDL NC\Do_An\Do an TH\Nộp đồ án\DoAn_2\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fNhaBan.resources
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\bin\Debug\App_TIKI.exe.config
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\bin\Debug\App_TIKI.exe
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\bin\Debug\App_TIKI.pdb
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\obj\Debug\App_TIKI.csprojAssemblyReference.cache
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fDonHang.resources
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fDonHangKhach_NhaBan.resources
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fGiaoHang_ADMIN.resources
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fGioHangChuaMua.resources
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fKhachHang.resources
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fKhuyenMai_CaNhan.resources
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fMain.resources
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fLogin.resources
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fNhaBan.resources
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fNhanVienGiao_ADMIN.resources
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fNhapKho.resources
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fNhapKho_ADMIN.resources
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fPhieuGuiHang_NhaBan.resources
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fSanPham_NhaBan.resources
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fTaiKhoan_CaNhan.resources
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fTaiKhoan_ADMIN.resources
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fThongKe_ADMIN.resources
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fThongTinCaNhan.resources
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fThongTin_NhaBan.resources
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\obj\Debug\App_TIKI.fXuatKho_ADMIN.resources
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\obj\Debug\App_TIKI.Properties.Resources.resources
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\obj\Debug\App_TIKI.csproj.GenerateResource.cache
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\obj\Debug\App_TIKI.csproj.CoreCompileInputs.cache
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\obj\Debug\App_TIKI.exe
+D:\Study\Advance Database\Doan_nhom_2\-CSDLNC-Tiki_App\App_TIKI\App_TIKI\obj\Debug\App_TIKI.pdb
